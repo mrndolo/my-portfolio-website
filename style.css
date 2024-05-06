@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Global Stylings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+}
+:root {
+    --h1 : #130F49;
+    --blue : #34A1CD;
+    --dark-purple : #55527C;
+    --grey : #B4B2C5;
+    --pink : #EA4C89;
+    --circle : #F4F3FF;
+    --light-pink : #FFF5F6;
+    --light-purple : #ADA8FF;
+    --light-blue : #E9F9FF;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .nav-list ul, .social-icons ul{
+    display: flex;
+}
+.nav-list ul li, .social-icons ul li {
+    margin: 0px 30px;
+    color: var(--dark-purple);
+    font-size: 19px;
+    cursor: pointer;
+}
+.logo {
+    width: 50px;
+}
