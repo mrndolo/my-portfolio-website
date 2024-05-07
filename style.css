@@ -220,3 +220,55 @@ a {
 .portfolio .grid-box:hover .hover {
     transform: scaleX(1);
 }
+/* == Testimonials Section == */
+.testimonials {
+    margin-top: 120px;
+    background: var(--light-pink);
+    padding: 60px 0px;
+}
+.testimonials .grid-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+}
+.testimonials .grid-box {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.123);
+    position: relative;
+    transition: 1s ease;
+}
+.testimonials .grid-box img {
+    margin-top: -60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.123);
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+}
+.testimonials .grid-box .fa-quote-left {
+    font-size: 24px;
+    color: var(--grey);
+    margin-bottom: 20px;
+}
+.testimonials .grid-box p {
+    margin: 20px 0px;
+}
+.testimonials h4 {
+    color: var(--dark-purple);
+    font-weight: bold;
+}
+.testimonials .rating {
+    color: var(--light-purple);
+}
+.testimonials .rating-1 {
+    color: var(--pink);
+}
+.testimonials .grid-box:hover img{
+    transform: scale(1.2);
+}
+.testimonials .grid-box:hover {
+    transform: scale(1.1);
+}
