@@ -304,3 +304,7 @@ a {
     font-weight: bold;
     cursor: pointer;
 }
+.copyright p{
+    color: var(--dark-purple);
+    font-weight: bold;
+}
