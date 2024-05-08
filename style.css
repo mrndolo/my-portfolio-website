@@ -272,3 +272,35 @@ a {
 .testimonials .grid-box:hover {
     transform: scale(1.1);
 }
+/* === Contact Section === */
+.contact {
+    margin-top: 120px;
+}
+.contact .container {
+    text-align: center;
+    background: var(--light-blue);
+    padding: 60px;
+    border-radius: 20px;
+}
+.contact .container h3 {
+    margin: 40px 0px;
+}
+.contact .fa {
+    margin-right: 30px;
+    font-size: 30px;
+    color: var(--blue);
+}
+.contact .quick-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact .quick-links ul {
+    display: flex;
+}
+.contact .quick-links ul li {
+    margin: 0px 20px;
+    color: var(--dark-purple);
+    font-weight: bold;
+    cursor: pointer;
+}
